@@ -1,12 +1,38 @@
 # Tuberculosis_ML
-Tulane ML project 
 
-Sample text
+The code repository for results in the paper: XYZ
 
 
-## Generating ROC charts
+## Dependecies
+- NumPy
+- Pandas
+- Pymzml
+- Pickle
+- Matplotlib
+- Math
+- Logistic 
+- Sklearn
 
-Sample text describing code
+
+## Data sets used in analysis
+Code to reproduce the figures in the paper are available in [this notebook](https://github.com/mjmts123/Tuberculosis_ML/blob/MT-branch/scores_organized_8.py)
+
+Four data sets were used within our analysis.
+
+- **Training set:** Italy train 
+- **Test data set:** Italy valid
+- **Independent data sets:** CSTB, Liz train
+
+The data sets can be swapped out in the following code:
+
+```python
+values = [["_Italy_train", "Total_Italy_train.csv"],
+          ["_Italy_valid", "Total_Italy_valid.csv"], 
+          ["_CSTB", "CSTB.csv"],
+          ["_liz_train", "Liz_train.csv"]]
+```
+
+
 
 ```python
 count = 1
