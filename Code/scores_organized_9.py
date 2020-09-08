@@ -60,7 +60,7 @@ mzml_files_transformed = True
 
 #True if models have been trained off training dataset, and best models have been selected
 
-models_trained_saved = False
+models_trained_saved = True
 
 
 
